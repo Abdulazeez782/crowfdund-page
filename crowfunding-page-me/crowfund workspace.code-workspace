@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\PERSONAL PROJECTS\\form validation"
+		},
+		{
+			"path": "..\\..\\EDA LECTURES"
+		},
+		{
+			"path": "..\\..\\PERSONAL PROJECTS\\interactive-form-me"
+		},
+		{
+			"path": "..\\localStorage"
+		},
+		{
+			"path": "..\\..\\EDA LECTURES\\Javascript Requests"
+		},
+		{
+			"path": "..\\..\\New Lectures and Projects\\React"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../react-task-tracker"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "crowfunding-page-me"
+	}
+}

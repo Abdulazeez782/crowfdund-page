@@ -1,0 +1,173 @@
+@font-face {
+	font-family: myfont400;
+	src: url("../fonts/Commissioner-Regular.ttf");
+}
+
+@font-face {
+	font-family: myfont500;
+	src: url("../fonts/Commissioner-Medium.ttf");
+}
+
+@font-face {
+	font-family: myfont700;
+	src: url("../fonts/Commissioner-Bold.ttf");
+}
+
+@media screen and (min-width: 980px) { 
+    .header {
+        width: 100%;
+        background: url('../images/image-hero-desktop.jpg') no-repeat;
+        background-size: cover;
+        height: 40vh;
+        padding: 0 7%;
+    }
+       
+    .img-hamburger.show {
+        display: none;
+    }
+
+    .img-close {
+        display: none;
+    }
+
+    .modal-mobile-menu {
+        opacity: 1;
+        float: right;
+        background: none;
+        position: static;
+        width: auto;
+        box-shadow: none;
+        margin-top: -15px;
+    }
+
+    .modal-mobile-menu a {
+        color: white;
+        display: inline;
+        /* float: left; */
+        border: none;
+        font-family: myfont400;
+    }
+
+    .container {
+        width: 40%;
+    }
+
+    .thanks {
+        width: 35%;
+        margin: auto;
+        left: 32.5%;
+    }
+
+    .back-modal {
+        width: 40%;
+        left: 30%;
+    }
+
+    .flex-row {
+        display: flex;
+    }
+
+    .flex-row h5:first-child {
+        padding-right: 1rem;
+    }
+
+    .flex-pledge {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .input-pledge {
+        width: auto;
+        margin-right: -5px;
+    }
+
+    .second-container .flex-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 7%;
+    }
+
+    .flex-desktop hr {
+        display: none;
+    }
+
+    .flex-desktop div {
+        text-align: left;
+        width: 28%;
+    }
+
+    .border-right {
+        border-right: 1px solid var(--Dark-gray);
+    }
+
+    /* .second-container .progress-container {
+        width: 90%;
+        margin-top: -40px;
+
+    }
+
+    .second-container .progress {
+        width: 90%;
+    } */
+
+    .back-project span {
+        display: inline-block;
+        text-align: center;
+        padding-left: 8%;
+        color: black;
+        font-family: myfont500;
+        font-size: 75%;
+        box-sizing: border-box;
+    }
+
+    .back-project button {
+        width: 45%;
+    }
+
+
+    .flex-bookmark {
+        display: flex;
+        align-items: center;
+        background-color: rgb(228, 228, 228);
+        border-radius: 2rem;
+        width: 38%;
+        cursor: pointer;
+    }
+
+    .desktop-pledge {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .desktop-reward {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    #no-reward {
+        /* position: absolute; */
+        transform: translate(-220%, 0);
+    }
+
+
+    .stands {
+        position: relative;
+    }
+
+    .stands .margin-bottom {
+        position: absolute;
+        top: .8rem;
+        right: 1.5rem;
+    }
+
+    .stands div h4 {
+        font-size: 1rem;
+    }
+
+}
